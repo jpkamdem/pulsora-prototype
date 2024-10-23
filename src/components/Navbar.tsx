@@ -3,29 +3,15 @@ export default function Navbar() {
     <>
       <section className="flex w-full flex-col items-center">
         <Header />
-        <nav className="w-[80vw]  border-t-4 border-b-4">
+        <nav className="w-[80vw]  border-t-2 border-b-2 border-gray-400">
           <ul className="uppercase w-full inline-flex justify-evenly">
-            <li className="pt-2 pb-2 hover:cursor-pointer hover:bg-red-300">
-              Menu
-            </li>
-            <li className="pt-2 pb-2 hover:cursor-pointer hover:bg-red-300">
-              Actualités
-            </li>
-            <li className="pt-2 pb-2 hover:cursor-pointer hover:bg-red-300">
-              Suivis
-            </li>
-            <li className="pt-2 pb-2 hover:cursor-pointer hover:bg-red-300">
-              Match
-            </li>
-            <li className="pt-2 pb-2 hover:cursor-pointer hover:bg-red-300">
-              Calendrier
-            </li>
-            <li className="pt-2 pb-2 hover:cursor-pointer hover:bg-red-300">
-              Contact
-            </li>
-            <li className="pt-2 pb-2 hover:cursor-pointer hover:bg-red-300">
-              Aide
-            </li>
+            <li className="p-2 pb-2 hover:cursor-pointer">Menu</li>
+            <li className="p-2 pb-2 hover:cursor-pointer">Actualités</li>
+            <li className="p-2 pb-2 hover:cursor-pointer">Suivis</li>
+            <li className="p-2 pb-2 hover:cursor-pointer">Match</li>
+            <li className="p-2 pb-2 hover:cursor-pointer">Calendrier</li>
+            <li className="p-2 pb-2 hover:cursor-pointer">Contact</li>
+            <li className="p-2 pb-2 hover:cursor-pointer">Aide</li>
           </ul>
         </nav>
       </section>
