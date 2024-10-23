@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        "vert-clair": "#BEF4CB",
+        "light-green": "#BEF4CB",
       }
     },
   },

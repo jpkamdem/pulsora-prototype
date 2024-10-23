@@ -7,11 +7,12 @@ import Contact from "./pages/Contact";
 import Menu from "./pages/Menu";
 import Suivis from "./pages/Suivis";
 import Navbar from "./components/Navbar";
+import NotFound from "./pages/NotFound";
 
 export default function App() {
   return (
     <>
-      <div className="h-screen bg-vert-clair">
+      <div className="h-screen bg-light-green">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/suivis" element={<Suivis />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </>
